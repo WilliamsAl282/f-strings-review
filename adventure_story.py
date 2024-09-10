@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Alex Williams
+# 9/10/2024
 # f-String Adventure Story
 
 '''
@@ -21,3 +21,9 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+
+hero_name = input('Please enter your first name:\n')
+setting = input('where does your adventure story take place?:\n')
+heroic_item = input('what item does your hero find on their adventure?\n')
+print (f'the great hero {hero_name} saved {setting} with a {heroic_item} from the evil forces')
